@@ -9,7 +9,7 @@ Hello, here you can find Miller-Rabin and Solovay-Strassen primality tests pytho
 # Application tested on
 Application tested on Windows 10 with Python 3.11.0. Python 3 dependencies are random and math packages.
 
-# Miller-Rabin
+# Miller-Rabin primality test
 
 ## Running time complexity
 Miller-Rabin running time complexity for this implementation is O(k*log^3(n)), where k is the number of rounds and n is the number to test.
