@@ -1,7 +1,7 @@
 from random import randrange
 from math import gcd
 
-print('Hello. This is a Miller-Rabin test for primality. It have O(k*log^3n) running time complexity, where k is a number of rounds and n is a number to test.')
+print('Hello. This is a Miller-Rabin test for primality. It have O(k*log^3(n)) running time complexity, where k is a number of rounds and n is a number to test.')
 print('Enter an odd integer to be tested for primality which is greater than 2:')
 number = int(input())
 while(number < 2):
