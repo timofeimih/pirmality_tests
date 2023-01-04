@@ -34,7 +34,7 @@ repeat k times:
                 return "composite"
             else:
                 i ← i + 1
-                x ← x^2 mod ny
+                x ← x^2 mod n
 return “probably prime”
 ```
 
