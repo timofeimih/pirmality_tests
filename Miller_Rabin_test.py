@@ -2,12 +2,11 @@ from random import randrange
 from math import gcd
 
 print('Hello. This is a Miller-Rabin test for primality. It have O(k*log^3(n)) running time complexity, where k is a number of rounds and n is a number to test.')
-print('Enter an odd integer to be tested for primality which is greater than 2:')
+print('Enter an integer to be tested for primality which is greater than 2:')
 number = int(input())
 while(number < 2):
-    if(number % 2 == 0):
-        print('N is less than 2 or not odd. Enter an odd integer to be tested for primality which is greater than 2:')
-        number = int(input())
+    print('Number is less than 2. Enter an integer to be tested for primality which is greater than 2:')
+    number = int(input())
 
 print('Enter round count:')
 iterations = int(input())
