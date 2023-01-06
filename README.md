@@ -19,7 +19,7 @@ The probability of an integer is a prime number when the test says so is 1 - 4^(
 
 ## Algorithm pseudocode primality test
 ```
-Input #1: n > 2, an odd integer to be tested for primality
+Input #1: n > 2, an integer to be tested for primality
 Input #2: k, the number of rounds of testing to perform
 Output: “composite” if n is found to be composite, “probably prime” otherwise
 
