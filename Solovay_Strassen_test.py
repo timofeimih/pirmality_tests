@@ -4,8 +4,8 @@ print('Hello. This is a Solovay-Strasset probability test. It have O(k*log^3(n))
 
 print('Enter an odd integer to be tested for primality:')
 number = int(input())
-while(number <= 1):
-    print('N is less than 1. Enter an odd integer to be tested for primality which is greater than 1:')
+while(number < 2):
+    print('Number is less than 2. Enter an odd integer to be tested for primality which is greater than 1:')
     number = int(input())
 
 print('Enter round count:')
