@@ -5,7 +5,7 @@ print('Hello. This is a Miller-Rabin test for primality. It have O(k*log^3(n)) r
 print('Enter an integer to be tested for primality which is greater than 2:')
 number = int(input())
 while(number < 2):
-    print('Number is less than 2. Enter an integer to be tested for primality which is greater than 2:')
+    print('Number is less than 2. Enter an integer to be tested for primality which is greater than 1:')
     number = int(input())
 
 print('Enter round count:')
