@@ -19,7 +19,7 @@ The probability of an integer is a prime number when the test says so is 1 - 4^(
 
 ## Algorithm pseudocode primality test
 ```
-Input #1: n > 2, an integer to be tested for primality
+Input #1: n > 1, an integer to be tested for primality
 Input #2: k, the number of rounds of testing to perform
 Output: “composite” if n is found to be composite, “probably prime” otherwise
 
@@ -48,7 +48,7 @@ The probability of an integer is a prime number when the test says so is 1 - 2^(
 
 ## Algorithm pseudocode for Solovay-Strassen
 ```
-inputs: n > 2, a value to test for primality
+inputs: n > 1, a value to test for primality
         k, a parameter that determines the accuracy of the test
 output: composite if n is composite, otherwise probably prime
 
