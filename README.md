@@ -48,7 +48,7 @@ The probability of an integer is a prime number when the test says so is 1 - 2^(
 
 ## Algorithm pseudocode for Solovay-Strassen
 ```
-inputs: n > 1, a value to test for primality
+inputs: n > 2, a value to test for primality
         k, a parameter that determines the accuracy of the test
 output: composite if n is composite, otherwise probably prime
 
